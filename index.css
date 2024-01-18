@@ -1,12 +1,23 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-  }
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Use Montserrat for headings (h1, h2, h3, etc.) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* If you want to specify multiple fonts as fallbacks */
+/* Use Open Sans as the primary font, and fallback to sans-serif if it's not available */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* For headings, use Montserrat as the primary font, and fallback to sans-serif if it's not available */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 
   .header-p {
     color: #fff;
