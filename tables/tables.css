@@ -1,0 +1,11 @@
+.mapimg{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add height and width to the container if necessary */
+  /* height: 300px; */
+  /* width: 300px; */
+  border: 1px solid #ccc; /* Adding a border for visualization */
+  height: 300px;
+  width: 300px;
+}
